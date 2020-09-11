@@ -1,8 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:ful2fun/Home/home_page.dart';
+import 'package:ful2fun/Profile/edit_profile.dart';
 
-import 'LoginSignUp/login_page.dart';
+import 'SignInSignUp/signin_signup.dart';
 
-void main() => runApp(MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -14,7 +22,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.black,
       ),
       home: Scaffold(
-        body: LogInPage(),
+        body: HomePage(),
       ),
     );
   }

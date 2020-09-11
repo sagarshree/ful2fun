@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69444096051",
+    "firebase_url": "https://ful2fun-25e66.firebaseio.com",
+    "project_id": "ful2fun-25e66",
+    "storage_bucket": "ful2fun-25e66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69444096051:android:ce6e0b745f843786ee9346",
+        "android_client_info": {
+          "package_name": "com.ful2fun.ful2fun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69444096051-gr5g4ogst6cuib9gt9don40r651ffdmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ful2fun.ful2fun",
+            "certificate_hash": "9cf88659b82444b48418f4af8a7c859e29a17e26"
+          }
+        },
+        {
+          "client_id": "69444096051-va34q825ik93tj92fm3nd3cdcuj357vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYD9lpaf0OHpj_YNRs7ItLcnL5jMzUYpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69444096051-vqhappdqf13qvqkffr9qoa3obpfdsc1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
